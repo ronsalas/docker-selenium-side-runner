@@ -2,4 +2,4 @@
 
 sleep 5
 
-selenium-side-runner -s http://192.168.144.4:5555 --output-directory /root/out /sides/*.side
+selenium-side-runner --server http://localhost:4444/wd/hub --output-directory /root/out /sides/*.side
