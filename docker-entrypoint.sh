@@ -2,4 +2,4 @@
 
 sleep 5
 
-selenium-side-runner -s http://selenium-hub:4444 --output-directory /root/out /sides/*.side
+selenium-side-runner -s 4444 --output-directory /root/out /sides/*.side
